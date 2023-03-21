@@ -1,0 +1,31 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "SonNDL",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndlson/nodejs_blog.git"
+  },
+  "keywords": [
+    "pitundev",
+    "sonndl_blog",
+    "blog"
+  ],
+  "author": "SonNDL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndlson/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/ndlson/nodejs_blog#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
